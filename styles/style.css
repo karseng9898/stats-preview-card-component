@@ -1,0 +1,62 @@
+body {
+  background: hsl(233, 47%, 7%);
+  font-size: 15px;
+}
+
+.container {
+  width: 95vw;
+  display: flex;
+  flex: auto;
+  margin: 3rem auto;
+  background: hsl(277, 84%, 40%);
+}
+
+h1,
+div.stats > h2 {
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter";
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+}
+
+.left > p,
+.stats > p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.stats > p {
+  margin-top: -0.1em;
+}
+
+.left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3rem;
+  background-color: hsl(244, 38%, 16%);
+}
+
+.right {
+  width: 50%;
+}
+
+.right img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 0;
+}
